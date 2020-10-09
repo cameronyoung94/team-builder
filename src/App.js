@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import {data} from './data'
 import TeamMatesForm from "./components/teammatesform"
 import Members from "./components/members"
+import "./components/styles.css";
 
 
 function App(){

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Members = props => {
     return (
-      <div>
+      <div className='members'>
         {props.teammates.map(member => (
            <div>
             <h2>{member.name}</h2>

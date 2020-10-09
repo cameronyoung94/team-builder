@@ -14,20 +14,20 @@ const TeamMatesForm = (props) => {
   };
 
   return (
-    <form onSubmit={submitForm}>
+    <form onSubmit={submitForm} className='submitForm'>
       <label htmlFor="name">Name</label>
       <input
         id="name"
         type="text"
-        placeholder="Enter Title"
+        placeholder="Enter name"
         onChange={handleChanges}
         value={member.title}
         name="name"
       />
       <label htmlFor="email">Email</label>
-      <textarea
+      <input
         id="email"
-        placeholder="Add your note here."
+        placeholder="enter email here."
         value={member.body}
         onChange={handleChanges}
         name="email"
